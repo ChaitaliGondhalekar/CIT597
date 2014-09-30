@@ -1,0 +1,20 @@
+CIT 597 Homework 1
+Submitted by Chaitali Gondhalekar
+
+1. If DNS server stopped working, would you still be able to surf the web? Why?
+Ans:
+DNS maps easy-to-remember host names to IP addresses. One can surf the web by IP addresses of servers that contain the desired web-pages or resources, if known. It will be highly inconvenient however very much possible.
+
+2. What port numbers are implied by the following URIs and why?
+http://paypal.com - port 80 - standard port for http
+http://mysite.com:8000/index - port 8000 - it’s specified in the URL
+ssh://root@cs.berkeley.edu/tmp/file - port 22 for ssh
+The Internet Assigned Number Authority assigns official default port numbers for various protocols and manages the root level of DNS. Used above are some of such port numbers.
+
+3. Describe why TCP can be considered as better protocol for Transport layer. Same for UDP.
+Transmission Control Protocol  provides basic Transport Layer functionality (segmentation). Also it is reliable, accurate and thus a better protocol for Transport Layer for applications like banking which need better accuracy than speed.
+On the other hand, User Datagram Protocol provides best effort delivery so it’s faster than TCP. Thus, it’s a better protocol for applications which give more importance to speed as compared to accuracy like video streaming, gaming, video calls, etc.
+
+4. HTTP is a stateless protocol. Give two options we could devise to keep track of users and their state.
+HTTP is a stateless protocol because every HTTP request is independent of and unrelated to all previous requests. HTTP cookies associate a particular user’s browser with information held at the server corresponding to that user’s session. It’s the browser’s responsibility to accept a cookie from an HTTP server and ensure that the cookie is included with future requests sent to the server.
+Another method is including the information required into the URL itself, in query string part. In this method, web server appends query strings to the links of a web page it holds when sending it to the user’s browser. When the user follows a link, the browser returns the attached query string to the server.

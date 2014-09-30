@@ -1,0 +1,37 @@
+<style>
+a a:link  {color:#000000; background-color:transparent}
+a:visited {color:#000000; background-color:transparent}
+a:hover   {color:#ff0000; background-color:transparent}
+a:active  {color:#ff0000; background-color:transparent}
+
+#header{
+	/*Chaitali Gondhalekar*/
+   background-color:#996666;
+    color:black;
+    text-align:center;
+    padding:5px; 	   
+}
+
+#nav{
+	/*Engineer..Designer..Dreamer*/
+	padding:5px; 
+	background-color:#996666;
+}
+
+#section{
+	/*image*/
+	width:450px;
+	float:left;
+	padding:10px;
+	background-color:#996666;
+}
+
+#article{
+	/*bullets*/
+	background-color:#996666;
+	/*#999966*/
+    padding:75px;
+	float:center;
+	height:280px;
+}
+</style>
